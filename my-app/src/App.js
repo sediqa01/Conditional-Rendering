@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional connected={false}/>
+      <ConditionalRenderingFunctional connected={true}/>
       
     </div>
   );
